@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["DuelitDev"]
   s.email       = "jyoon07dev@gmail.com"
   s.files       = %w[setup.gemspec lib/xproperties.rb lib/xproperties/properties.rb]
-  s.homepage    = "https://github.com/Duelit/XProperties"
+  s.homepage    = "https://github.com/DuelitDev/XProperties-Ruby"
   s.license     = "LGPL-2.1"
   s.required_ruby_version = Gem::Requirement.new(">= 2.6")
 end
