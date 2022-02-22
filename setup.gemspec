@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "XProperties"
-  s.version     = "2.0.10"
+  s.version     = "2.0.11"
   s.date        = "2022-02-21"
   s.summary     = ".properties file parser"
   s.description = "Cross-Language .properties file parser"
