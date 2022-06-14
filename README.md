@@ -1,7 +1,20 @@
 # XProperties
-<br>Cross-Language .properties file parser<br>
-XProperties-Ruby
+XProperties is a .properties file parser library, which was written to read/write .properties files in languages other than Java.  
 ## Install
-`gem install XProperties`
-## [Documentation](https://github.com/DuelitDev/XProperties-Ruby/wiki)
-## [License](https://github.com/Duelit/XProperties/blob/master/LICENSE)
+`gem install XProperties`  
+## Documentation
+[XProperties Wiki](https://github.com/DuelitDev/XProperties-Ruby/wiki)  
+## Example
+```ruby
+# example.rb
+require 'XProperties'
+
+
+prop = Properties.new
+prop.load "example.properties"
+puts prop["example"]
+```  
+## Copyright
+Copyright 2022. Kim Jae-yun all rights reserved.  
+## License
+[LGPL-2.1 License](https://github.com/DuelitDev/XProperties/blob/master/LICENSE)  
