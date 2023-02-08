@@ -15,6 +15,6 @@ prop.load "example.properties"
 puts prop["example"]
 ```  
 ## Copyright
-Copyright 2022. Kim Jae-yun all rights reserved.  
+Copyright 2023. DuelitDev all rights reserved.  
 ## License
 [LGPL-2.1 License](https://github.com/DuelitDev/XProperties/blob/master/LICENSE)  
